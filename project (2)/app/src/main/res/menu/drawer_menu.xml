@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="홈" />
+        <item
+            android:id="@+id/nav_friend"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="친구" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="프로필" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item android:id="@+id/nav_end"
+            android:icon="@drawable/ic_end"
+            android:title="종료"/>
+        </menu>
+    </item>
+</menu>
